@@ -11,6 +11,22 @@
 
 }
 
-.acceptance-rate{
-	padding-left: 45%;
+
+.modal-title{
+	margin-bottom: 0;
+    line-height: 1.5;
+    font-weight: 500;
 }
+
+button.close{
+	cursor: pointer;
+	float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 5;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    -webkit-writing-mode: horizontal-tb;
+}
+
