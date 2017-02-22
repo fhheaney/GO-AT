@@ -63,6 +63,10 @@ hr.small {
     max-width: 100px;
 }
 
+hr.medium {
+    max-width: 500px;
+}
+
 /* Side Menu */
 
 #sidebar-wrapper {
