@@ -11,6 +11,24 @@
 
 }
 
-.acceptance-rate{
-	padding-left: 45%;
+
+.modal-title{
+	margin-bottom: 0;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.image-cropper>img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
 }

@@ -164,6 +164,142 @@ hr.medium {
     -o-background-size: cover;
 }
 
+.melbourne {
+	display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/melbourneHomepage.jpg) no-repeat center center scroll;
+	background-color: hsla(0,0%,100%,0.30);
+    background-blend-mode: overlay;
+    background-repeat: no repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.thessaloniki {
+	display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/thessalonikiHomepage.jpg) no-repeat center center scroll;
+	background-color: hsla(0,0%,100%,0.30);
+    background-blend-mode: overlay;
+    background-repeat: no repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.capetown {
+	display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/capetownHomepage.jpg) no-repeat center center scroll;
+	background-color: hsla(0,0%,100%,0.30);
+    background-blend-mode: overlay;
+    background-repeat: no repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.bangkok {
+	display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bangkokHomepage.jpg) no-repeat center center scroll;
+	background-color: hsla(0,0%,100%,0.30);
+    background-blend-mode: overlay;
+    background-repeat: no repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.wellington {
+	display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/wellingtonHomepage.jpg) no-repeat center center scroll;
+	background-color: hsla(0,0%,100%,0.30);
+    background-blend-mode: overlay;
+    background-repeat: no repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.barharbor {
+	display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/barharborHomepage.jpg) no-repeat center center scroll;
+	background-color: hsla(0,0%,100%,0.30);
+    background-blend-mode: overlay;
+    background-repeat: no repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.hongkong {
+	display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/hongkongHomepage.jpg) no-repeat center center scroll;
+	background-color: hsla(0,0%,100%,0.30);
+    background-blend-mode: overlay;
+    background-repeat: no repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.copenhagen {
+	display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/copenhagenHomepage.jpg) no-repeat center center scroll;
+	background-color: hsla(0,0%,100%,0.30);
+    background-blend-mode: overlay;
+    background-repeat: no repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.panamacity {
+	display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/panamacityHomepage.jpg) no-repeat center center scroll;
+	background-color: hsla(0,0%,100%,0.30);
+    background-blend-mode: overlay;
+    background-repeat: no repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
 /* About */
 
 .about {
