@@ -135,7 +135,7 @@
                     <p class="lead">This is where advisor comments would go!.</p> <!-- Edit here -->
                     <br>
                     <!-- add href -->
-                    <a class="btn btn-dark btn-lg">Contact</a>
+                    <a href="#" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#contactModalAdvisor">Contact Me</a>
                 </div>
             </div>
             <!-- /.row -->
@@ -161,7 +161,7 @@
                                 <!-- div class="service-item"-->
                                     <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                                    <i class="fa fa-file-pdf-o fa-stack-1x text-primary"></i>
                                 </span>
                             </div>
                             <div class="col-md-8 col-sm-offset-2 service-item text-left"><!-- Edit here -->
@@ -170,7 +170,7 @@
                                     </h4>
                                     <p><i>Group Members</i></p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.asd sdfa sfd fdsads asdf da sadf fdaas asdf </p>
-                                    <a href="#" class="btn btn-light">PDF</a>
+                                    <a href="#" class="btn btn-light">View</a>
                             </div>
                         </div>
 
@@ -179,8 +179,7 @@
                             <div class="col-md-2  col-sm-3 service-item">
                                     <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                   
-
+                                    <i class="fa fa-file-pdf-o fa-stack-1x text-primary"></i>
                                 </span>
                             </div>
                             <div class="col-md-8 col-sm-offset-2 service-item text-left"><!-- Edit here -->
@@ -189,7 +188,7 @@
                                     </h4>
                                     <p><i>Group Members</i></p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.asd sdfa sfd fdsads asdf da sadf fdaas asdf</p>
-                                    <a href="#" class="btn btn-light">PDF</a>
+                                    <a href="#" class="btn btn-light">View</a>
                             </div>
                         </div>
                     </div>
@@ -211,7 +210,7 @@
                     <h1>Experiences</h1>
                     <hr class="small">
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="portfolio-item text-left">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg"><!-- Edit here  change source to img/<img name>-->
@@ -220,7 +219,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="portfolio-item text-left">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"><!-- Edit here -->
@@ -229,7 +228,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
@@ -238,10 +237,10 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="portfolio-item text-left">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                <a href="#" data-toggle="modal" data-target="#experienceModal">
+                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg" >
                                     <h2> Experience Title</h2> <!-- Edit here -->
                                     Here would be text about the epxerience being displayed. <!-- Edit here -->
                                 </a>
@@ -276,7 +275,7 @@
                                     <strong>Fiona Heaney</strong>
                                 </h4>
                                 <p>CS '17</p>
-                                <a href="#" class="btn btn-light" data-toggle="modal" data-target="#contactModal">Contact Me</a>
+                                <a href="#" class="btn btn-light" data-toggle="modal" data-target="#contactModalStudent">Contact Me</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -306,8 +305,8 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <img src="img/user_ross.png" class="fa fa-stack-1x user-avatar">
-                            </span>
+                                    <img src="img/user_ross.png" class="fa fa-stack-1x user-avatar">
+                                </span>
                                 <h4>
                                     <strong>Johnny Ross</strong>
                                 </h4>
@@ -336,19 +335,71 @@
         </small>
     </section> -->
 
-    <!-- Modal -->
-    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+
+    <!-- Advisor Contact Modal -->
+    <div class="modal fade" id="contactModalAdvisor" tabindex="-1" role="dialog" aria-labelledby="contactModalAdvisorLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h3 class="modal-title" id="contactModalLabel">Student Contact Information</h3>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
+            <h3 class="modal-title" id="contactModalAdvisorLabel">Advisor Contact Information</h3>
+          </div>
+          <div class="modal-body">
+            <div class="service-item">
+                <span class="fa-stack fa-4x image-cropper">
+                    <img src="img/advisor_tuler.jpg" class="fa fa-stack-1x user-avatar">
+                </span>
+                <h4>
+                    <strong>Seth Tuler</strong>
+                </h4>
+                <p><i>Office Location:</i> Project Center 211A</p>
+                <p><i>Phone:</i>508-831-6444</p>
+                <p><i>Email:</i><a href="mailto:stuler@wpi.edu">stuler@wpi.edu</a></p>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Student Contact Modal -->
+    <div class="modal fade" id="contactModalStudent" tabindex="-1" role="dialog" aria-labelledby="contactModalStudentLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title" id="contactModalStudentLabel">Student Contact Information</h3>
           </div>
           <div class="modal-body">
             <h4>Fiona Heaney</h4>
             <p><a href="mailto:fhheaney@wpi.edu">fhheaney@wpi.edu</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience Modal -->
+    <div class="modal fade" id="experienceModal" tabindex="-1" role="dialog" aria-labelledby="experienceModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title" id="experienceModalLabel">Experience</h3>
+          </div>
+          <div class="modal-body row">
+            <div class="col-lg-2 col-md-2">
+                <img src="img/portfolio-4.jpg"/><!--Edit here with picture-->
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <h4>Bus Tour of <!--Edit here with site name--></h4>
+                <p>Learn all about the hostory and landmarks of <!--Edit here with site name--> during this 90 minute bus tour. See all the sites. Buy a hop on/hop off pass. Flexible and convenient</p>
+            </div>
           </div>
         </div>
       </div>
