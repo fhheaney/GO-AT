@@ -150,7 +150,7 @@
                     <p>This is where advisor comments would go! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sagittis tempor facilisis. Pellentesque iaculis lectus vel nibh feugiat ornare. Morbi egestas justo leo, sed finibus eros venenatis vitae. Nulla et tortor ut risus rutrum tempus ornare non augue.  </p> <!-- Edit here -->
                     <br>
                     <!-- add href -->
-                    <a class="btn btn-dark btn-lg text-center">Contact Lorraine</a>
+                    <a class="btn btn-dark btn-lg text-center" data-toggle="modal" data-target="#contactModalAdvisorLorraine">Contact Lorraine</a>
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3" align="center">
@@ -160,10 +160,10 @@
                 <div class="col-lg-3 col-md-3 col-sm-3 text-left">
                     <h2>Co-Director Stephen McCauley</h2>
                     <h4><em>Melbourne Site Advisor</em></h4>
-                    <p>This is where advisor comments would go! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sagittis tempor facilisis. Pellentesque iaculis lectus vel nibh feugiat ornare. Morbi egestas justo leo, sed finibus eros venenatis vitae. Nulla et tortor ut risus rutrum tempus ornare non augue. </p> <!-- Edit here -->
+                    <p>This is where advisor comments would go! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sagittis tempor facilisis. Pellentesque iaculis lectus vel nibh feugiat ornare. Morbi egestas justo leo.</p> <!-- Edit here -->
                     <br>
                     <!-- add href -->
-                    <a class="btn btn-dark btn-lg text-center">Contact Stephen</a>
+                    <a class="btn btn-dark btn-lg text-center" data-toggle="modal" data-target="#contactModalAdvisorStephen">Contact Stephen</a>
             </div>
 
             <!-- /.row -->
@@ -244,14 +244,14 @@
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                             <div class="portfolio-item">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <a href="#">
+                                    <a data-toggle="modal" data-target="#experienceModal">
                                         <img class="img-portfolio img-responsive" src="img/sydneyExperience.JPG" style="width: 350px; height: 325px;"><!-- Edit here  change source to img/<img name>-->
                                     </a>
                                 </div>
                                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2">
                                 </div>
                                 <div class="col-lg-10 col-md-10 col-sm-10 col-xs-8">
-                                    <a href="#">
+                                    <a data-toggle="modal" data-target="#experienceModal">
                                         <h3> Syndey, Australia </h3><!-- Edit here -->
                                         Only a 45 minute flight from Melbourne, visit the New York City of Australia. See amazing sights like the Sydney Opera House and the Famous Sydney Bridge. Enjoy world class resturants and a great experience.<!-- Edit here -->
                                         <p> </p>
@@ -418,32 +418,57 @@
 
 
     <!-- Advisor Contact Modal -->
-    <div class="modal fade" id="contactModalAdvisor" tabindex="-1" role="dialog" aria-labelledby="contactModalAdvisorLabel" aria-hidden="true">
+    <div class="modal fade" id="contactModalAdvisorLorraine" tabindex="-1" role="dialog" aria-labelledby="contactModalAdvisorLorraineLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <h3 class="modal-title" id="contactModalAdvisorLabel">Advisor Contact Information</h3>
+            <h3 class="modal-title" id="contactModalAdvisorLorraineLabel">Advisor Contact Information</h3>
           </div>
           <div class="modal-body">
             <div class="service-item">
                 <span class="fa-stack fa-4x image-cropper">
-                    <img src="img/advisor_tuler.jpg" class="fa fa-stack-1x user-avatar">
+                    <img src="img/advisor_higgins.jpg" class="fa fa-stack-1x user-avatar">
                 </span>
                 <h4>
-                    <strong>Seth Tuler</strong>
+                    <strong>Lorraine Higgins</strong>
                 </h4>
-                <p><i>Office Location:</i> Project Center 211A</p>
-                <p><i>Phone:</i>508-831-6444</p>
-                <p><i>Email:</i><a href="mailto:stuler@wpi.edu">stuler@wpi.edu</a></p>
+                <p><i>Office Location: </i>SL 020</p>
+                <p><i>Phone: </i>508-831-5503</p>
+                <p><i>Email: </i><a href="mailto:ldh@wpi.edu">ldh@wpi.edu</a></p>
             </div>            
           </div>
         </div>
       </div>
     </div>
 
+    <div class="modal fade" id="contactModalAdvisorStephen" tabindex="-1" role="dialog" aria-labelledby="contactModalAdvisorStephenLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h3 class="modal-title" id="contactModalAdvisorStephenLabel">Advisor Contact Information</h3>
+          </div>
+          <div class="modal-body">
+            <div class="service-item">
+                <span class="fa-stack fa-4x image-cropper">
+                    <img src="img/advisor_higgins.jpg" class="fa fa-stack-1x user-avatar">
+                </span>
+                <h4>
+                    <strong>Stephen McCauley</strong>
+                </h4>
+                <p><i>Office Location:</i>Project Center 212</p>
+                <p><i>Phone: </i>508-831-6164</p>
+                <p><i>Email: </i><a href="mailto:mccauley@wpi.edu">mccauley@wpi.edu</a></p>
+            </div>            
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Student Contact Modal -->
     <div class="modal fade" id="contactModalStudent" tabindex="-1" role="dialog" aria-labelledby="contactModalStudentLabel" aria-hidden="true">
@@ -471,15 +496,17 @@
            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <h3 class="modal-title" id="experienceModalLabel">Experience</h3>
+            <h3 class="modal-title" id="experienceModalLabel">Sydney, Australia</h3>
           </div>
           <div class="modal-body row">
-            <div class="col-lg-2 col-md-2">
-                <img src="img/portfolio-4.jpg"/><!--Edit here with picture-->
-            </div>
-            <div class="col-lg-4 col-md-4">
-                <h4>Bus Tour of <!--Edit here with site name--></h4>
-                <p>Learn all about the hostory and landmarks of <!--Edit here with site name--> during this 90 minute bus tour. See all the sites. Buy a hop on/hop off pass. Flexible and convenient</p>
+            <div class="col-lg-8 col-md-8">
+                <h4>External Resources</h4>
+                <ul>
+                    <li><a href="http://www.gobe.com/destinations/pacific/australia/sydney-tours/sydney-opera-house-guided-tour/p/TR-ANZ-AUS-SYDN-EN-1006?gclid=Cj0KEQiA0L_FBRDMmaCTw5nxm-ABEiQABn-VqY6p9wIBVRYUk2tdPw4sJqi8xIOaxMxlKMuLI_eBiUcaAnr98P8HAQ&gclsrc=aw.ds">Tour the Opera House</a></li>
+
+                    <li><a href="http://www.bridgeclimb.com/">Climb the Sydney Harbour Bridge</a></li>
+                    <li><a href="https://www.rbgsyd.nsw.gov.au/">Visit the Royal Botanic Garden</a></li>
+                </ul>
             </div>
           </div>
         </div>
