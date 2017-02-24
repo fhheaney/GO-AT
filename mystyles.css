@@ -6,6 +6,11 @@
     background-color: #AC2B37;
 }
 
+.btn-grey {
+    color: #fff;
+    background-color: #A9B0B7;
+}
+
 .bg-img{
   background-image: url("img/worldstar.jpg");
 }
@@ -17,7 +22,7 @@
 .btn-yuge{
   width: 240px;
   height: 50px;
-  
+
 }
 
 .form-group input[type="checkbox"] {
