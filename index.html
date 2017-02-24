@@ -1,540 +1,762 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/stylish-portfolio.css" media="screen"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script text="text/javascript" src="bootsnip.js"></script>
+<script text="text/javascript" src="js/bootstrap.js"></script>
+<!-- <div class="col-md-4">
+<div class="col-md-6">
+<h4>Checkbox Buttons</h4>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Stylish Portfolio - Start Bootstrap Theme</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
-    <line href="css/style.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-  </head>
-
-  <body>
-
-    <!-- Navigation -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <li class="sidebar-brand">
-          <a href="#top" onclick=$("#menu-close").click();>Start Bootstrap</a>
-        </li>
-        <li>
-          <a href="#top" onclick=$("#menu-close").click();>Home</a>
-        </li>
-        <li>
-          <a href="#about" onclick=$("#menu-close").click();>About</a>
-        </li>
-        <li>
-          <a href="#services" onclick=$("#menu-close").click();>Services</a>
-        </li>
-        <li>
-          <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
-        </li>
-        <li>
-          <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- Header -->
-    <header id="top" class="header">
-        <div class="text-vertical-center">
-            <h1>Start Bootstrap</h1>
-            <h3>Free Bootstrap Themes &amp; Templates</h3>
-            <br>
-            <a href="site.html" class="btn btn-dark btn-lg">Site HTML</a>
-        </div>
-    </header>
-
-    <!-- About -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-lg-12 text-center">
-          </div>
-          <h2>Find the right IQP Project Site for you!</h2>
-          <div class="form-group">
-            <p class="lead">Search for information on different IQP's by narrowing down the search to suit your needs.</p>
-          </div>
-            <div class="row text-center">
-              <div class="col-lg-10 col-lg-offset-1">
-                <hr class="small">
-                <div class="row">
-                  <div class="col-md-4 col-sm-7">
-                    <div class="service-item">
-                      <div class="portfolio-item">
-                          <a href="#">
-                              <img class="img-portfolio img-responsive" src="img/calendar.jpg">
-                          </a>
-                      </div>
-                      <h4>
-                        <strong>By Term</strong>
-                      </h4>
-                      <p>Not sure if you can go abroad this term? Search for IQP's depending on the term.</p>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-7">
-                    <div class="service-item">
-                      <div class="portfolio-item">
-                          <a href="#">
-                              <img class="img-portfolio img-responsive" src="img/city.jpg">
-                          </a>
-                      </div>
-                      <h4>
-                        <strong>By Location</strong>
-                      </h4>
-                      <p>Looking to explore the world? Find information on IQP's based on your location of choice.</p>
-                      <a href="search.html" class="btn button-red">Search IQP's</a>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-sm-7">
-                    <div class="service-item">
-                      <div class="portfolio-item">
-                          <a href="#">
-                              <img class="img-portfolio img-responsive" src="img/wpi3.jpg">
-                          </a>
-                      </div>
-                      <h4>
-                        <strong>By Projects</strong>
-                      </h4>
-                      <p>Search for IQP sites through project types of interest.</p>
-                    </div>
-                  </div>
-                        </div>
-                        <!-- /.row (nested) -->
-                    </div>
-                  </div>
-
-          <!-- /.row -->
-        </div>
-      </div>
-      <!-- /.container -->
-    </section>
-
-        <!-- General Info -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="info" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h1>Quick Facts</h1>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Term</strong>
-                                </h4>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Cost</strong>
-                                </h4>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
-                                <h4>
-                                    <strong>Acceptance Rate</strong>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- Advisor -->
-    <section id="advisor" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1>Advisor Remarks</h1>
-                    <p class="lead">This is where advisor comments would go!</a>.</p>
-                    <br>
-                    <!-- add href -->
-                    <a class="btn btn-dark btn-lg">Contact</a>
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Experiences -->
-    <section  id="experiences" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h1>Experiences</h1>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                    <h3> This would be the experience title.</h3>
-                                    Here would be text about the epxerience being displayed.
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                                <h3> This would be the experience title.</h3>
-                                Here would be text about the epxerience being displayed.
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                    <h3> This would be the experience title.</h3>
-                                    Here would be text about the epxerience being displayed.
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                    <h3> This would be the experience title.</h3>
-                                    Here would be text about the epxerience being displayed.
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Profiles -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="profiles" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Connect with Past Participants</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <img src="img/user_heaney.png" class="fa fa-stack-1x user-avatar">
-
-                            </span>
-                                <h4>
-                                    <strong>Fiona Heaney</strong>
-                                </h4>
-                                <p>CS '17</p>
-                                <a href="#" class="btn btn-light" data-toggle="modal" data-target="#contactModal">Contact Me</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <img src="img/user_hood.png" class="fa fa-stack-1x user-avatar">
-                            </span>
-                                <h4>
-                                    <strong>Zachary Hood</strong>
-                                </h4>
-                                <p>RBE '17</p>
-                                <a href="#" class="btn btn-light">Contact Me</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <img src="img/user_waugh.png" class="fa fa-stack-1x user-avatar">
-                            </span>
-                                <h4>
-                                    <strong>Leif Waugh</strong>
-                                </h4>
-                                <p>MIS '17</p>
-                                <a href="#" class="btn btn-light">Contact Me</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                <img src="img/user_ross.png" class="fa fa-stack-1x user-avatar">
-                            </span>
-                                <h4>
-                                    <strong>Johnny Ross</strong>
-                                </h4>
-                                <p>MIS '17</p>
-                                <a href="#" class="btn btn-light">Contact Me</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Callout -->
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
-        </div>
-    </aside>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
+<div class="funkyradio">
+<div class="funkyradio-default">
+<input type="checkbox" name="checkbox" id="checkbox1" checked/>
+<label for="checkbox1">A-Term</label>
+</div>
+<div class="funkyradio-primary">
+<input type="checkbox" name="checkbox" id="checkbox2" checked/>
+<label for="checkbox2">B-Term</label>
+</div>
+<div class="funkyradio-success">
+<input type="checkbox" name="checkbox" id="checkbox3" checked/>
+<label for="checkbox3">C-Term</label>
+</div>
+<div class="funkyradio-danger">
+<input type="checkbox" name="checkbox" id="checkbox4" checked/>
+<label for="checkbox4">D-Term</label>
+</div>
+</div>
+</div>
+</div> class="img-portfolio img-responsive" src="img/calendar.jpg" -->
+<section id="search-criteria" class="services bg-red">
+  <div class="container">
+    <div class="[ row text-center]">
+        <h2 style="color:white">Find the right IQP Project Site for you!</a></h2>
+        <p style="color:white">Search for information on different IQP's by narrowing down the search to suit your needs.</p>
+    </div>
+    <div class="[ col-xs-12 col-sm-4 ]">
+        <h3 style="color:white">Search By Term</h3><hr />
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-primary" id="fancy-checkbox-primary" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-primary" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-primary" class="[ btn btn-default btn-reg active ]">
+                    A-Term
+                </label>
             </div>
         </div>
-    </aside>
-
-    <!-- Map -->
-    <!--Could we add a google map plugin with the site point on it??-->
-    <!-- <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br />
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-    </section> -->
-
-    <!-- Modal -->
-    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="contactModalLabel">Student Contact Information</h3>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <h4>Fiona Heaney</h4>
-            <p><a href="mailto:fhheaney@wpi.edu">fhheaney@wpi.edu</a></p>
-          </div>
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-success" id="fancy-checkbox-success" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-success" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-success" class="[ btn btn-default btn-reg active ]">
+                    B-Term
+                </label>
+            </div>
         </div>
-      </div>
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-info" id="fancy-checkbox-info" autocomplete="off" />
+
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-info" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-info" class="[ btn btn-default btn-reg active ]">
+                    C-Term
+                </label>
+            </div>
+        </div>
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-warning" id="fancy-checkbox-warning" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-warning" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-warning" class="[ btn btn-default btn-reg active ]">
+                    D-Term
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="[ col-xs-12 col-sm-4 ]">
+        <h3 style="color:white">Search By Project Type</h3><hr />
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-primary" id="fancy-checkbox-primary4" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-primary4" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-primary4" class="[ btn btn-default btn-reg active ]">
+                    Diversity
+                </label>
+            </div>
+        </div>
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-success" id="fancy-checkbox-success4" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-success4" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-success4" class="[ btn btn-default btn-reg active ]">
+                    Education
+                </label>
+            </div>
+        </div>
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-info" id="fancy-checkbox-info4" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-info4" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-info4" class="[ btn btn-default btn-reg active ]">
+                    Environmental
+                </label>
+            </div>
+        </div>
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-warning" id="fancy-checkbox-warning4" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-warning4" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-warning4" class="[ btn btn-default btn-reg active ]">
+                    Rural Development
+                </label>
+            </div>
+        </div>
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-danger" id="fancy-checkbox-danger4" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-danger4" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-danger4" class="[ btn btn-default btn-reg active ]">
+                    Science
+                </label>
+            </div>
+        </div>
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-primary" id="fancy-checkbox-primary6" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-primary6" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-primary6" class="[ btn btn-default btn-reg active ]">
+                    Sustainability
+                </label>
+            </div>
+        </div>
     </div>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Start Bootstrap</strong>
-                    </h4>
-                    <p>3481 Melrose Place
-                        <br>Beverly Hills, CA 90210</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+    <div class="[ col-xs-12 col-sm-4 ]">
+        <h3 style="color:white">Search By Location</h3><hr />
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-primary" id="fancy-checkbox-primary2" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-primary2" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-primary2" class="[ btn btn-default btn-reg active ]">
+                    Africa
+                </label>
+            </div>
+        </div>
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-success" id="fancy-checkbox-success2" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-success2" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-success2" class="[ btn btn-default btn-reg active ]">
+                    Asia
+                </label>
+            </div>
+        </div>
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-info" id="fancy-checkbox-info2" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-info2" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-info2" class="[ btn btn-default btn-reg active ]">
+                    Europe
+                </label>
+            </div>
+        </div>
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-warning" id="fancy-checkbox-warning2" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-warning2" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-warning2" class="[ btn btn-default btn-reg active ]">
+                    Central America
+                </label>
+            </div>
+        </div>
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-danger" id="fancy-checkbox-danger" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-danger" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-danger" class="[ btn btn-default btn-reg active ]">
+                    North America
+                </label>
+            </div>
+        </div>
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-primary" id="fancy-checkbox-primary3" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-primary3" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-primary3" class="[ btn btn-default btn-reg active ]">
+                    South America
+                </label>
+            </div>
+        </div>
+        <div class="[ form-group ]">
+            <input type="checkbox" name="fancy-checkbox-success" id="fancy-checkbox-success3" autocomplete="off" />
+            <div class="[ btn-group ]">
+                <label for="fancy-checkbox-success3" class="[ btn btn-grey ]">
+                    <span class="[ glyphicon glyphicon-ok ]"></span>
+                    <span> </span>
+                </label>
+                <label for="fancy-checkbox-success3" class="[ btn btn-default btn-reg active ]">
+                    Other
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+  <div class="row" style="text-align:center">
+      <a href="search_results.html" class="btn btn-lg btn-success" style="margin-top:20px;">Search</a>
+  </div>
+</section>
+
+<section id="search-criteria" class="services bg-red">
+<div class="container">
+	<div class="row">
+		<h2>Know what Project Site you're looking for? Start typing your search below. </h2>
+        <div class="form-group">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <input type="search" class="form-control" id="search" placeholder="Please Enter Project Site Location ...">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group">
+            <div class="searchable-container">
+                <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                    <div class="info-block block-info clearfix">
+                        <div class="square-box pull-left">
+                            <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                        </div>
+                        <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                            <label class="btn btn-default">
+                                <div class="bizcontent">
+                                    <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                    <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                    <h5>Asuncion, Paraguay</h5>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                    <div class="info-block block-info clearfix">
+                        <div class="square-box pull-left">
+                            <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                        </div>
+                        <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                            <label class="btn btn-default">
+                                <div class="bizcontent">
+                                    <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                    <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                    <h5>Bangkok, Thailand</h5>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                    <div class="info-block block-info clearfix">
+                        <div class="square-box pull-left">
+                            <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                        </div>
+                        <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                            <label class="btn btn-default">
+                                <div class="bizcontent">
+                                    <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                    <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                    <h5>Bar Harbor, Maine</h5>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                    <div class="info-block block-info clearfix">
+                        <div class="square-box pull-left">
+                            <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                        </div>
+                        <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                            <label class="btn btn-default">
+                                <div class="bizcontent">
+                                    <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                    <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                    <h5>Boston, Massachusetts</h5>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    //#to-top button appears after scrolling
-    var fixed = false;
-    $(document).scroll(function() {
-        if ($(this).scrollTop() > 250) {
-            if (!fixed) {
-                fixed = true;
-                // $('#to-top').css({position:'fixed', display:'block'});
-                $('#to-top').show("slow", function() {
-                    $('#to-top').css({
-                        position: 'fixed',
-                        display: 'block'
-                    });
-                });
-            }
-        } else {
-            if (fixed) {
-                fixed = false;
-                $('#to-top').hide("slow", function() {
-                    $('#to-top').css({
-                        display: 'none'
-                    });
-                });
-            }
-        }
-    });
-    // Disable Google Maps scrolling
-    // See http://stackoverflow.com/a/25904582/1607849
-    // Disable scroll zooming and bind back the click event
-    var onMapMouseleaveHandler = function(event) {
-        var that = $(this);
-        that.on('click', onMapClickHandler);
-        that.off('mouseleave', onMapMouseleaveHandler);
-        that.find('iframe').css("pointer-events", "none");
-    }
-    var onMapClickHandler = function(event) {
-            var that = $(this);
-            // Disable the click handler until the user leaves the map area
-            that.off('click', onMapClickHandler);
-            // Enable scrolling zoom
-            that.find('iframe').css("pointer-events", "auto");
-            // Handle the mouse leave event
-            that.on('mouseleave', onMapMouseleaveHandler);
-        }
-        // Enable map zooming with mouse scroll when the user clicks the map
-    $('.map').on('click', onMapClickHandler);
-    </script>
-
-</body>
-
-</html>
+	</div>
+  <div class="row">
+      <div class="form-group">
+          <div class="searchable-container">
+              <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                  <div class="info-block block-info clearfix">
+                      <div class="square-box pull-left">
+                          <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                      </div>
+                      <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                          <label class="btn btn-default">
+                              <div class="bizcontent">
+                                  <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                  <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                  <h5>Cape Town, South Africa</h5>
+                              </div>
+                          </label>
+                      </div>
+                  </div>
+              </div>
+              <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                  <div class="info-block block-info clearfix">
+                      <div class="square-box pull-left">
+                          <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                      </div>
+                      <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                          <label class="btn btn-default">
+                              <div class="bizcontent">
+                                  <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                  <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                  <h5>Copenhagen, Denmark</h5>
+                              </div>
+                          </label>
+                      </div>
+                  </div>
+              </div>
+              <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                  <div class="info-block block-info clearfix">
+                      <div class="square-box pull-left">
+                          <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                      </div>
+                      <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                          <label class="btn btn-default">
+                              <div class="bizcontent">
+                                  <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                  <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                  <h5>Cuenca, Ecuador</h5>
+                              </div>
+                          </label>
+                      </div>
+                  </div>
+              </div>
+              <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                  <div class="info-block block-info clearfix">
+                      <div class="square-box pull-left">
+                          <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                      </div>
+                      <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                          <label class="btn btn-default">
+                              <div class="bizcontent">
+                                  <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                  <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                  <h5>Hangzhou, China</h5>
+                              </div>
+                          </label>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+</div>
+<div class="row">
+    <div class="form-group">
+        <div class="searchable-container">
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Hong Kong, China</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>London, England</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Mandi, India</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" onclick="window.location.href='melbourneSite.html'" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Melbourne, Australia</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="form-group">
+        <div class="searchable-container">
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Moscow, Russia</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Nantucket, Massachusetts</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                              <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Panama City, Panama</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+           <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Rabat, Morocco</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="form-group">
+        <div class="searchable-container">
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>San Jose, Costa Rica</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>San Juan, Puerto Rico</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Santa Fe, New Mexico</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Springfield, Massachusetts</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="form-group">
+        <div class="searchable-container">
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Thessaloniki, Greece</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Tirana, Albania</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Venice, Italy</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Washington, DC</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="form-group">
+        <div class="searchable-container">
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Wellington, New Zealand</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Windhoek, Namibia</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Worcester, England</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="items col-xs-5 col-sm-5 col-md-3 col-lg-3">
+                <div class="info-block block-info clearfix">
+                    <div class="square-box pull-left">
+                        <!-- <span class="glyphicon glyphicon-tags glyphicon-lg"></span> -->
+                    </div>
+                    <div data-toggle="buttons" class="btn-group bizmoduleselect">
+                        <label class="btn btn-default">
+                            <div class="bizcontent">
+                                <input type="checkbox" name="var_id[]" autocomplete="off" value="">
+                                <span class="glyphicon glyphicon-ok glyphicon-lg"></span>
+                                <h5>Worcester, Massachusetts</h5>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</br>
+</section>
