@@ -179,6 +179,21 @@ hr.medium {
     -o-background-size: cover;
 }
 
+.searchResults {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 75%;
+    background: url(../img/wpi-quad.jpg) no-repeat center center scroll;
+    background-color: hsla(0,100%,0%,0.30);
+    background-blend-mode: overlay;
+    background-repeat: no repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .melbourne {
 	display: table;
     position: relative;
