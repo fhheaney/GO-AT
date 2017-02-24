@@ -156,9 +156,8 @@ hr.medium {
     display: table;
     position: relative;
     width: 100%;
-    height: 75%;
+    height: 100%;
     background: url(../img/bg.jpg) no-repeat center center scroll;
-    background-color: hsla(0,100%, 0%,0.30);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -169,24 +168,9 @@ hr.medium {
 	display: table;
     position: relative;
     width: 100%;
-    height: 75%;
+    height: 100%;
     background: url(../img/melbourneHomepage.jpg) no-repeat center center scroll;
-	background-color: hsla(0,100%, 0%,0.30);
-    background-blend-mode: overlay;
-    background-repeat: no repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.project-center {
-    display: table;
-    position: relative;
-    width: 100%;
-    height: 75%;
-    background: url(../img/project_center.jpg) no-repeat center center scroll;
-    background-color: hsla(0,100%, 0%,0.30);
+	background-color: hsla(0,0%,100%,0.30);
     background-blend-mode: overlay;
     background-repeat: no repeat;
     -webkit-background-size: cover;
@@ -199,9 +183,9 @@ hr.medium {
 	display: table;
     position: relative;
     width: 100%;
-    height: 75%;
+    height: 100%;
     background: url(../img/thessalonikiHomepage.jpg) no-repeat center center scroll;
-	background-color: hsla(0,100%, 0%,0.30);
+	background-color: hsla(0,0%,100%,0.30);
     background-blend-mode: overlay;
     background-repeat: no repeat;
     -webkit-background-size: cover;
@@ -214,9 +198,9 @@ hr.medium {
 	display: table;
     position: relative;
     width: 100%;
-    height: 75%;
+    height: 100%;
     background: url(../img/capetownHomepage.jpg) no-repeat center center scroll;
-	background-color: hsla(0,100%, 0%,0.30);
+	background-color: hsla(0,0%,100%,0.30);
     background-blend-mode: overlay;
     background-repeat: no repeat;
     -webkit-background-size: cover;
@@ -229,9 +213,9 @@ hr.medium {
 	display: table;
     position: relative;
     width: 100%;
-    height: 75%;
+    height: 100%;
     background: url(../img/bangkokHomepage.jpg) no-repeat center center scroll;
-	background-color: hsla(0,100%, 0%,0.30);
+	background-color: hsla(0,0%,100%,0.30);
     background-blend-mode: overlay;
     background-repeat: no repeat;
     -webkit-background-size: cover;
@@ -244,9 +228,9 @@ hr.medium {
 	display: table;
     position: relative;
     width: 100%;
-    height: 75%;
+    height: 100%;
     background: url(../img/wellingtonHomepage.jpg) no-repeat center center scroll;
-	background-color: hsla(0,100%, 0%,0.30);
+	background-color: hsla(0,0%,100%,0.30);
     background-blend-mode: overlay;
     background-repeat: no repeat;
     -webkit-background-size: cover;
@@ -259,9 +243,9 @@ hr.medium {
 	display: table;
     position: relative;
     width: 100%;
-    height: 75%;
+    height: 100%;
     background: url(../img/barharborHomepage.jpg) no-repeat center center scroll;
-	background-color: hsla(0,100%, 0%,0.30);
+	background-color: hsla(0,0%,100%,0.30);
     background-blend-mode: overlay;
     background-repeat: no repeat;
     -webkit-background-size: cover;
@@ -274,9 +258,9 @@ hr.medium {
 	display: table;
     position: relative;
     width: 100%;
-    height: 75%;
+    height: 100%;
     background: url(../img/hongkongHomepage.jpg) no-repeat center center scroll;
-	background-color: hsla(0,100%, 0%,0.30);
+	background-color: hsla(0,0%,100%,0.30);
     background-blend-mode: overlay;
     background-repeat: no repeat;
     -webkit-background-size: cover;
@@ -289,9 +273,9 @@ hr.medium {
 	display: table;
     position: relative;
     width: 100%;
-    height: 75%;
+    height: 100%;
     background: url(../img/copenhagenHomepage.jpg) no-repeat center center scroll;
-	background-color: hsla(0,100%, 0%,0.30);
+	background-color: hsla(0,0%,100%,0.30);
     background-blend-mode: overlay;
     background-repeat: no repeat;
     -webkit-background-size: cover;
@@ -304,9 +288,9 @@ hr.medium {
 	display: table;
     position: relative;
     width: 100%;
-    height: 75%;
+    height: 100%;
     background: url(../img/panamacityHomepage.jpg) no-repeat center center scroll;
-	background-color: hsla(0,100%, 0%,0.30);
+	background-color: hsla(0,0%,100%,0.30);
     background-blend-mode: overlay;
     background-repeat: no repeat;
     -webkit-background-size: cover;
