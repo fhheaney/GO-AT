@@ -92,4 +92,7 @@
     margin-top:20px;
 }
 
+table>tbody>tr>td{
+    border-bottom:2px solid #bdbdbd;
+}
 
